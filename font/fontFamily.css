@@ -4,8 +4,10 @@
 
 @font-face {
     font-family: 'fzheiti';
-    src: url('_-webfont.woff2') format('woff2'),
-         url('_-webfont.woff') format('woff');
+    src: url('webfont.woff2') format('woff2'),
+         url('webfont.woff') format('woff'),
+         url('webfont.ttf') format('ttf');
+
     font-weight: normal;
     font-style: normal;
 
