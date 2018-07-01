@@ -1,0 +1,105 @@
+@charset "utf-8";
+.activity_bg{
+  position: relative;
+  width: 100vw;
+  height: 90vh;
+  background:url(../img/bg.png) no-repeat center center /cover
+}
+.header{
+  position: absolute;
+  top:0.68rem;
+  /* background:red; */
+  height: 9.04rem;
+  width: 9.44rem;
+  left:50%;
+  margin-left:-4.72rem;
+  /* width: 100%; */
+}
+.triangle{
+  position: absolute;
+  margin:0 auto;
+  width:9.04rem;
+  height: 9.04rem;
+  background:url(../img/fangkuan_03.png) no-repeat center center/cover;
+
+}
+.title_word{
+  position: absolute;
+  left: 0.68rem;
+  /* top:1.84rem; */
+top:-9.15rem;
+  width: 8.6rem;
+  height: 6.15rem;
+  background:url(../img/bg2_03.png) no-repeat center center/cover;
+
+} 
+.solga{
+  position: absolute;
+   left:1.05rem;
+   bottom: 1.4rem;
+   font-size: 0.8rem;
+}
+.text{
+  font-family: fzheiti;
+  font-weight: 600;
+  color:#fff;
+  transform: rotateZ(-10deg);
+  letter-spacing:0.0rem;
+
+
+}
+.shade{
+  position: absolute;
+  left: 0;
+    bottom:1rem;
+  width: 5.04rem;
+  height: 1.9733rem;
+  background:url(../img/shade_03.png) no-repeat center center/contain;
+}
+.button{
+  position: absolute;
+  left:50%;
+  margin-left:-2.9867rem;
+  bottom:0.5067rem;
+  width: 5.9733rem;
+  height:1.4133rem;
+  background:url(../img/anniu_06.png) no-repeat center center/contain;
+}
+.xin{
+  position: absolute;
+  left:3.76rem;
+  bottom:-1.2rem;
+  width: 3rem;
+  height:2.4533rem;
+  overflow: hidden;
+  /* background:url(../img/xin_03.png) no-repeat center center/contain; */
+}
+.xin img{
+  width: 100%;
+  vertical-align: top;
+    /* animation: xin 1.5s ease 3s;  */
+}
+
+.music{
+  width:1.7333rem;
+  height:4rem;
+  /* background:#00000078; */
+  position: absolute;
+  right:0;
+  top:0;
+}
+#play{
+  position: absolute;
+  top:1rem;
+
+  height: 1.3333rem;
+  width:1.3333rem;
+}
+.music .music_on{
+  background:url(../img/icon_music_on2.png) center center/contain  no-repeat;
+  animation: playmusic 2s infinite linear ;
+ 
+}
+.music .music_off{
+  background:url(../img/icon_music_off2.png) center center/contain  no-repeat;
+}

@@ -1,0 +1,28 @@
+ .shake{
+  animation: shake 0.5s linear .3s;
+ }
+ .pulse{
+   animation: pulse 2s infinite linear 
+ }
+.fadeIn{
+  animation: fadeIn 1s ease-in  2s
+}
+
+.bounceInUp {
+  animation: bounceInUp 1s   ease 
+}
+
+.slideInUp{
+  animation: fadeInDown 2s  ease 
+}
+@keyframes playmusic{
+ from{
+   transform: rotateZ(360deg);
+  
+ }
+ to{
+
+  transform: rotateZ(0)
+ }
+
+}
